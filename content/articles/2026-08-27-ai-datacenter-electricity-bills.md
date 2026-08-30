@@ -1,5 +1,5 @@
 ---
-title: "Your Electric Bill Went Up. In Most of the Country, AI Data Centers Aren't Why."
+title: "Your Electric Bill Went Up. AI Data Centers Aren't Really the Reason Why."
 original_headline: "AI Data Centers Are Driving Up Electric Bills. Who Pays?"
 original_outlet: "Forbes"
 date: 2026-08-27
@@ -12,55 +12,53 @@ sources:
   - "https://www.cnbc.com/2026/03/13/ai-data-centers-electricity-prices-backlash-ratepayer-protection.html"
 ---
 
-The story usually opens with an anecdote like the Virginia homeowner whose bill jumped from about
-$100 to $281 in a single month, followed by a line connecting that spike directly to AI data
-centers and a warning that the same thing is coming for the rest of the country. The bill increase
-is real. The nationwide framing skips over exactly how localized and mechanism-specific the actual
-cause is.
+You've probably seen the headline: some guy in Virginia's electric bill jumped from $100 to $281
+in a month, and it's all because Big Tech is building giant AI data centers that are sucking up
+the power grid and sticking regular people with the bill. The bill spike is real. The "it's all
+because of AI" part is way more complicated than that.
 
-## Where the spike is real, and why
+## Okay but is it true or not?
 
-The clearest documented case is PJM, the grid operator covering roughly 13 mid-Atlantic and
-Midwest states plus Washington, D.C. PJM's own Independent Market Monitor ran the counterfactual:
-strip every data center — planned and operational — out of its capacity forecasts, and capacity
-payments would have been about 64% lower. Strip out only the *future* data centers not yet built,
-keeping the ones already running, and payments would still be roughly 53% lower. That translates
-to an estimated $25–30 more per household per month than two years ago. That part of the story
-checks out, and it's a real burden on PJM ratepayers.
+Kind of, but only in specific places, for a weird reason that has almost nothing to do with how
+much electricity is actually being used.
 
-## The part the headline skips: it's a market-design problem, not just a load problem
+The clearest example is a region called PJM — basically the power grid covering 13 states around
+the mid-Atlantic and Midwest, plus Washington, D.C. The people whose job is to check this stuff ran
+the numbers: if you pretend none of the AI data centers in that area existed at all, power costs
+there would be about 64% lower. That's a real, documented effect, and it works out to roughly
+$25–30 extra per month on the average bill. So yes, in that specific part of the country, data
+centers are a big part of why bills went up.
 
-Here's the detail that changes the framing: PJM's forward wholesale energy prices — the actual
-cost of generating and delivering the electricity — rose only 12–20% over the same period. The
-capacity auction, a separate and more opaque mechanism that prices in projected *future* demand,
-spiked more than 9-fold. That gap matters. If data center electricity consumption alone were
-driving the cost, the energy price and the capacity price should have moved together. They didn't,
-which points to the auction mechanism itself — built on demand forecasts that PJM has since had to
-revise downward twice — amplifying the sticker shock well beyond what the underlying physical
-demand justifies.
+## Here's the part that doesn't add up
 
-The clean comparison is ERCOT, the grid operator for most of Texas. ERCOT saw data center growth
-of a similar scale over the same period. Its forward prices rose 11–17% — in the range of PJM's
-*energy* price increase, with none of PJM's capacity-market blowup. Same load growth, different
-market design, a very different outcome for ratepayers. That's hard to explain if "AI data centers"
-alone is the causal story; it's easy to explain if market structure is doing most of the work.
+The actual cost of generating and delivering electricity in that same region only went up 12–20%
+over that time. Not 64% — 12 to 20%. So where did the rest of the increase come from?
 
-## Data centers have also been quietly lowering some bills
+It came from something called a "capacity auction," which is basically the power grid making a
+guess, years in advance, about how much electricity everyone is going to need in the future — and
+then charging extra today based on that guess. The guess this time was way, way off (the grid
+operator has had to walk it back twice already), and that bad guess is what actually blew the
+price up, way more than real-world electricity use did.
 
-The Forbes framing of "data centers vs. ratepayers" also leaves out the other side of the ledger.
-In several regions, the capital that data center operators are putting into new transmission
-lines and generation capacity is being cost-shared in ways that have, so far, modestly *lowered*
-near-term bills for other customers who benefit from grid upgrades they didn't have to fully pay
-for themselves. That dynamic isn't guaranteed to last — if AI investment cools before those
-buildouts are paid off, the fixed costs could shift back onto a smaller base of ratepayers — but
-it complicates a headline that treats the relationship as one-directional.
+We know this because of a clean comparison: Texas's power grid (called ERCOT) added a similar
+amount of AI data center demand over the same time period. Its prices only went up 11–17% — basically
+matching the real cost increase, with none of the giant spike. Same amount of new AI computers
+plugged in, totally different result, because Texas's system doesn't price things the same weird
+way.
 
-## The honest version of this story
+## So data centers = free pass?
 
-More than 30 states have introduced over 300 data-center-related bills in 2026, New York enacted a
-moratorium on large permits in July, and New Jersey passed ratepayer-protection legislation in
-June — real, serious policy responses to a real problem. But the problem those laws are responding
-to is concentrated in specific markets with specific auction designs, not a uniform, nationwide
-"AI is why your bill went up" phenomenon. A PJM ratepayer and an ERCOT ratepayer experienced the
-same load growth and very different outcomes — which means the fix is at least as much about how
-grid operators price capacity as it is about how many GPUs are plugged in.
+Not exactly, and it's not one-sided either. In a bunch of places, the money data center companies
+are spending to build new power lines and power plants is actually helping keep other people's
+bills lower right now, because those upgrades get shared. That could flip if AI companies suddenly
+slow down and stop paying for it, but as of today it's happening in the other direction in several
+regions — the opposite of what you'd guess from the headlines.
+
+## The actual takeaway
+
+More than 30 states have passed or proposed laws about this in 2026 because it's a real issue in
+specific places. But "AI data centers are raising bills everywhere" isn't quite right. The honest
+version is: in places with a specific, badly-designed pricing system, data centers exposed a flaw
+that was already there and made it way more painful. In places without that flaw, the same amount
+of AI growth barely moved prices at all. The fix isn't just "build fewer data centers" — it's
+"fix the pricing system," which is a much less viral headline but a much more accurate one.

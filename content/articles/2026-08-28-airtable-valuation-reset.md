@@ -1,5 +1,5 @@
 ---
-title: "Airtable Didn't Collapse — Its 2021 Valuation Did. The Business Grew 20% Last Year at 90% Margins."
+title: "Airtable Didn't Collapse — Its 2021 Price Tag Did. The Actual Business Is Doing Fine."
 original_headline: "Bending Spoons Acquires Airtable at 2.7x ARR, an 89% Collapse From Its 2021 Peak Valuation"
 original_outlet: "MarketScale"
 date: 2026-08-28
@@ -12,44 +12,47 @@ sources:
   - "https://www.benzinga.com/markets/private-markets/26/08/60967750/airtables-bending-spoons-valuation-collapse-private-markets"
 ---
 
-"Collapse" is a word for something failing. Bending Spoons just bought Airtable for $1.29 billion,
-which is indeed an 89% drop from the $11.7 billion valuation Airtable carried at its 2021 funding
-round peak. Read only that sentence and it sounds like a company falling apart. Read the actual
-business numbers from the deal and it's closer to the opposite.
+"Collapse" is a word you use when something's dying. A company called Bending Spoons just bought
+the software company Airtable for $1.29 billion, which is 89% less than what Airtable was
+"worth" back in 2021. Sounds like the company is falling apart, right? Look at the actual numbers
+from the deal and it's basically the opposite.
 
-## The business Bending Spoons actually bought
+## Wait, so is Airtable doing badly or not?
 
-As of June 2026, Airtable had roughly $480 million in annual recurring revenue, growing about 20%
-year over year, with gross margins near 90% and net dollar retention around 170% — meaning
-existing customers were spending, on average, 70% more a year later than they had been. Those are
-not the metrics of a company in decline. A SaaS business growing at that clip with those margins
-and that retention rate is, by conventional startup benchmarks, healthy. The deal priced it at 2.7
-times revenue.
+Not even a little. As of mid-2026, Airtable was pulling in about $480 million a year, growing that
+number by 20% year over year, and — this is the part that actually matters — the customers who
+were already using it were spending way more money on it over time, not less. For every dollar it
+brought in, it was keeping about 90 cents as profit before overhead. Those are genuinely good
+numbers for a software company. This is not what a business "collapsing" looks like from the
+inside.
 
-## Why "89% collapse" is the wrong denominator
+## Then why the scary 89% number?
 
-The 89% figure is entirely a function of the comparison point: Airtable's 2021 valuation. 2021 was
-the peak of a historically unusual private-market pricing environment — zero interest rates,
-enormous late-stage venture capital inflows, and SaaS multiples that in hindsight were not
-sustainable for almost any company that raised money in that window. The median SaaS company's
-enterprise-value-to-forward-revenue multiple was 20.8x in February 2021. By July 2026 it was 3.8x
-— an 82% compression across the *entire* sector, not something specific to Airtable. Measuring any
-2021-vintage company's "collapse" against its 2021 valuation will produce a dramatic-sounding
-percentage almost by construction, because the denominator itself was inflated.
+Because of what it's being compared to. Picture it like this: back in 2021, if your lemonade
+stand made $500 a year, an investor might've said "I'll pay $10,000 for a piece of that" — 20
+times what it earns in a year. That was genuinely how people were valuing software startups in
+2021: money was basically free to borrow, and everyone was throwing huge numbers at anything
+tech-related. By 2026, that same $500-a-year lemonade stand gets offers closer to $1,900 — because
+interest rates went up, investors got way more careful, and the entire market reset. That's not
+the lemonade stand doing worse. That's the price of lemonade stands going back to something more
+normal, across the board.
 
-Airtable's actual 2.7x multiple in this deal sits close to — even modestly below — that 3.8x
-sector median. That's a company selling at roughly the going industry rate in 2026, not one taking
-a company-specific beating.
+The typical software company's price tag, compared to what it earns per year, went from about 20x
+in early 2021 to under 4x by mid-2026 — across the whole industry, not just Airtable. Airtable sold
+for about 2.7x what it earns per year, which is actually right around, or slightly below, that new
+normal. It didn't get a uniquely bad deal. It got a 2026 deal.
 
-## What's real here, and what isn't
+## Who actually got hurt here
 
-What's real: SaaS valuations broadly reset hard as capital, customers, and engineering talent
-rotated toward AI-native software categories, and Airtable's *venture investors* who bought in at
-or near the 2021 peak took a genuine loss on paper, as did some early employees depending on their
-strike prices and preference stack. That's a legitimate story about who bears the risk in
-late-stage private rounds.
+The people who really did lose money are the investors and some early employees who bought in
+back at the inflated 2021 price and are now cashing out at the 2026 price — that's a real, painful
+story for them specifically. But that's a story about timing and who was holding the stock when
+the music stopped, not a story about Airtable the company failing at its actual job.
 
-What isn't real: the implication that Airtable-the-business cratered. A company growing revenue
-20% a year with 90% margins and customers spending steadily more over time is not what a
-"collapse" looks like operationally — it's what a repricing of an entire asset class looks like
-when the comparison point is chosen to maximize the drama.
+## The takeaway
+
+A company growing 20% a year, keeping 90 cents of every dollar, with customers spending more over
+time, is a healthy business by basically any normal definition. What "collapsed" was a number that
+was inflated to begin with, at the exact same moment nearly every other software company's number
+was doing the same thing. Calling that "Airtable's collapse" makes it sound personal. It wasn't —
+it happened to almost everyone who raised money in 2021.

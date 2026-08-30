@@ -1,5 +1,5 @@
 ---
-title: "Google Lost Star AI Researchers to Rivals This Year — It Also Hired Almost 12,000 People"
+title: "Yes, Big AI Names Left Google This Year. It Also Hired Almost 12,000 People."
 original_headline: "Brain Drain: Google Faces Talent Exodus as AI Priorities Change"
 original_outlet: "Breitbart"
 date: 2026-08-29
@@ -12,45 +12,42 @@ sources:
   - "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html"
 ---
 
-The departures behind this story are real and genuinely notable: Chief Scientist Jeff Dean left
-after 27 years, Gemini contributors Jonas Adler and Alexander Pritzel moved to Anthropic, Nobel
-laureate John Jumper left for Anthropic, and Noam Shazeer departed for OpenAI. For a research
-organization, losing names like that in one stretch is a real signal worth reporting. "Exodus"
-implies something more one-directional than what the company's own headcount numbers show.
+Some genuinely big names have left Google for other AI companies this year — their Chief
+Scientist Jeff Dean, after 27 years there, plus a Nobel Prize winner and a couple of the people who
+actually built their Gemini AI, all headed to rivals like Anthropic and OpenAI. That part is 100%
+real, and it's a fair thing to report. Calling it an "exodus" — like everyone's fleeing a sinking
+ship — is where it stops matching reality.
 
-## The number the "brain drain" framing leaves out
+## The number that's missing from the story
 
-Over the twelve months ending June 2026, Alphabet's total headcount grew from 187,103 to 198,933 —
-a net addition of 11,830 people. The single biggest quarterly jump in recent years came in Q2 2026,
-when the company added more than 4,000 employees. A company that is net-hiring at that pace,
-including in the middle of the period these departures happened, is not shrinking. It's entirely
-possible — and appears to be the case here — for a company to lose a cluster of high-profile senior
-researchers while still growing its overall workforce and AI investment substantially.
+In the same year all this was happening, Google's parent company grew its total headcount by
+almost 12,000 people. Not lost — gained, net, after counting everyone who left. Its single biggest
+hiring quarter in years happened right in the middle of this whole "brain drain" story. A company
+that's shrinking doesn't usually add thousands of people in three months. You can lose some very
+famous researchers and still be growing overall — both things happened here at the same time.
 
-## An industry-wide bidding war, not a Google-specific leak
+## Everyone is stealing everyone's employees right now
 
-Every major AI lab has spent 2026 poaching aggressively from every other major AI lab. Meta, OpenAI,
-Anthropic, and xAI have all made headline-grabbing offers to researchers at competitors, Google
-included. Framing Google's losses in isolation, without noting that Anthropic and OpenAI are
-themselves losing people to competitors in the same fight, makes an industry-wide dynamic look like
-a company-specific failure. The relevant question isn't "is Google losing people" — in this labor
-market, every lab is — it's whether Google is losing the fight on net, and headcount and hiring pace
-data don't show that clearly.
+Here's the context that gets left out: literally every major AI company — Meta, OpenAI, Anthropic,
+Google, xAI (the team behind Grok) — is trying to poach talent from every other one, right now,
+with insane offers. If you only report the people leaving Google, without
+mentioning that OpenAI and Anthropic are also losing their own people to competitors constantly, it
+makes it sound like Google specifically has a problem, when really it's the whole industry playing
+musical chairs with the same few thousand elite researchers. Google losing people to this fight
+doesn't automatically mean Google is losing the fight.
 
-## The leadership change wasn't a defection
+## One of these "departures" wasn't even a departure
 
-The Breitbart framing groups Demis Hassabis's move from DeepMind CEO to chairman in with the
-departures, but that transition was an internal succession: Koray Kavukcuoglu, previously
-DeepMind's CTO and Google's chief AI architect, stepped up to SVP in his place. That's a planned
-handoff to an internal successor, not a competitor picking off Google's leadership.
+The story also lumps in Google's AI research lead stepping back to become chairman of the
+division, like it's the same thing as someone quitting for a rival. It's not — that was a planned
+handoff to someone already inside the company who got promoted into the role. A scheduled
+retirement upward isn't the same story as a competitor stealing your best person.
 
-## What's actually worth watching
+## What's actually worth worrying about
 
-The more concrete, checkable concern is product execution, not headcount optics: Gemini 3.5 Pro
-missed three separate internal ship targets across June, July, and early August, and Alphabet
-shares fell about 5% on June 22 — roughly $225 billion in market value — on a combination of the
-delay news and the departure headlines landing together. Conflating those two into one "brain
-drain is hurting the stock" narrative obscures a more specific and more useful question: did the
-research departures contribute to the Gemini delays, or are these two separate problems that
-happened to surface in the same news cycle? That's a narrower claim than "talent exodus," and it's
-the one actually worth someone reporting out.
+If you want the real concern here, it's not the headcount story — it's that Google's next big AI
+model missed its release date three separate times in a row, and investors reacted by wiping out
+about $225 billion of the company's stock value in a single day. That's a real, measurable problem.
+But blending "some researchers left" and "the new AI model is late" into one big scary "brain
+drain" headline makes it harder to tell which of those two things is actually the problem — and
+whether one caused the other, or they just happened to land in the news at the same time.
