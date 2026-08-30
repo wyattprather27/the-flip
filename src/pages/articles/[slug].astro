@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('articles');
+  return entries.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, original_headline, original_outlet, date, sources } = entry.data;
+---
+
+<Layout title={`${title} — The Flip`}>
+  <a class="back-link" href="/">&larr; All articles</a>
+  <article>
+    <header class="article-header">
+      <p class="flip-kicker">Flipping: "{original_headline}" — {original_outlet}</p>
+      <h1>{title}</h1>
+      <p class="article-meta">
+        Published {date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
+      </p>
+    </header>
+    <div class="article-body">
+      <Content />
+    </div>
+    <section class="sources">
+      <h2>Sources</h2>
+      <ol>
+        {sources.map((source) => (
+          <li>
+            <a href={source} target="_blank" rel="noopener noreferrer">{source}</a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </article>
+</Layout>

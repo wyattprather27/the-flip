@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { getTeaser } from '../lib/teaser';
+
+const entries = await getCollection('articles');
+const articles = entries.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Layout title="The Flip">
+  <ul class="article-list">
+    {
+      articles.map((article) => (
+        <li>
+          <p class="kicker">Flipping: {article.data.original_outlet}</p>
+          <h2>
+            <a href={`/articles/${article.data.slug}/`}>{article.data.title}</a>
+          </h2>
+          <p class="dek">{getTeaser(article.body ?? '')}</p>
+          <p class="meta">
+            {article.data.date.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              timeZone: 'UTC',
+            })}
+          </p>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
