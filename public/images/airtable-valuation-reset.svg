@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <rect width="800" height="450" fill="#fdfcf9"/>
+  <rect x="0" y="360" width="800" height="90" fill="#ece7db"/>
+
+  <!-- spreadsheet grid -->
+  <rect x="90" y="140" width="280" height="220" fill="none" stroke="#1a1a1a" stroke-width="6"/>
+  <line x1="90" y1="200" x2="370" y2="200" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="90" y1="260" x2="370" y2="260" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="90" y1="320" x2="370" y2="320" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="160" y1="140" x2="160" y2="360" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="230" y1="140" x2="230" y2="360" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="300" y1="140" x2="300" y2="360" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- declining valuation stack -->
+  <g>
+    <rect x="450" y="330" width="70" height="30" fill="#5b5b5b"/>
+    <rect x="450" y="290" width="70" height="30" fill="#5b5b5b"/>
+    <rect x="450" y="250" width="70" height="30" fill="#5b5b5b"/>
+    <text x="485" y="230" font-family="Georgia, serif" font-size="20" fill="#5b5b5b" text-anchor="middle">2021</text>
+  </g>
+  <g>
+    <rect x="580" y="330" width="70" height="30" fill="#a3271f"/>
+    <text x="615" y="230" font-family="Georgia, serif" font-size="20" fill="#a3271f" text-anchor="middle">2026</text>
+  </g>
+
+  <!-- ARR growth arrow -->
+  <polyline points="440,400 520,380 600,390 690,350" fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="690,350 670,352 682,368" fill="#1a1a1a"/>
+</svg>

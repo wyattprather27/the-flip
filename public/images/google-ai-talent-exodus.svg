@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <rect width="800" height="450" fill="#fdfcf9"/>
+  <rect x="0" y="360" width="800" height="90" fill="#ece7db"/>
+
+  <!-- office tower -->
+  <rect x="330" y="120" width="140" height="240" fill="#1a1a1a"/>
+  <g fill="#fdfcf9">
+    <rect x="350" y="145" width="20" height="20"/>
+    <rect x="390" y="145" width="20" height="20"/>
+    <rect x="430" y="145" width="20" height="20"/>
+    <rect x="350" y="185" width="20" height="20"/>
+    <rect x="390" y="185" width="20" height="20"/>
+    <rect x="430" y="185" width="20" height="20"/>
+    <rect x="350" y="225" width="20" height="20"/>
+    <rect x="390" y="225" width="20" height="20"/>
+    <rect x="430" y="225" width="20" height="20"/>
+  </g>
+
+  <!-- figures leaving, left -->
+  <g fill="#a3271f">
+    <circle cx="150" cy="260" r="14"/>
+    <rect x="138" y="276" width="24" height="40" rx="8"/>
+  </g>
+  <line x1="180" y1="290" x2="300" y2="270" stroke="#a3271f" stroke-width="5"/>
+  <polygon points="300,270 282,264 288,280" fill="#a3271f"/>
+
+  <!-- figures arriving, right -->
+  <g fill="#1a1a1a">
+    <circle cx="650" cy="250" r="13"/>
+    <rect x="639" y="265" width="22" height="38" rx="8"/>
+    <circle cx="695" cy="270" r="13"/>
+    <rect x="684" y="285" width="22" height="38" rx="8"/>
+  </g>
+  <line x1="500" y1="280" x2="615" y2="260" stroke="#1a1a1a" stroke-width="5"/>
+  <polygon points="615,260 597,256 601,272" fill="#1a1a1a"/>
+  <line x1="500" y1="310" x2="660" y2="285" stroke="#1a1a1a" stroke-width="5"/>
+  <polygon points="660,285 642,282 645,298" fill="#1a1a1a"/>
+</svg>

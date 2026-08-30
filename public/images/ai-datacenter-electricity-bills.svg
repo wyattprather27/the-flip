@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <rect width="800" height="450" fill="#fdfcf9"/>
+  <rect x="0" y="360" width="800" height="90" fill="#ece7db"/>
+
+  <!-- data center building -->
+  <rect x="90" y="180" width="220" height="180" fill="#1a1a1a"/>
+  <g fill="#fdfcf9">
+    <rect x="110" y="200" width="60" height="14"/>
+    <rect x="110" y="224" width="60" height="14"/>
+    <rect x="110" y="248" width="60" height="14"/>
+    <rect x="110" y="272" width="60" height="14"/>
+    <rect x="110" y="296" width="60" height="14"/>
+    <rect x="190" y="200" width="60" height="14"/>
+    <rect x="190" y="224" width="60" height="14"/>
+    <rect x="190" y="248" width="60" height="14"/>
+    <rect x="190" y="272" width="60" height="14"/>
+    <rect x="190" y="296" width="60" height="14"/>
+  </g>
+
+  <!-- transmission tower -->
+  <polygon points="420,360 400,180 440,180" fill="none" stroke="#1a1a1a" stroke-width="6"/>
+  <line x1="385" y1="220" x2="455" y2="220" stroke="#1a1a1a" stroke-width="6"/>
+  <line x1="392" y1="260" x2="448" y2="260" stroke="#1a1a1a" stroke-width="6"/>
+  <polygon points="420,160 400,220 420,210 440,270 420,220 440,220" fill="#a3271f"/>
+
+  <!-- house with bill -->
+  <polygon points="560,270 630,220 700,270" fill="#1a1a1a"/>
+  <rect x="580" y="270" width="100" height="90" fill="#1a1a1a"/>
+  <rect x="605" y="300" width="50" height="60" fill="#fdfcf9"/>
+  <rect x="618" y="312" width="24" height="6" fill="#a3271f"/>
+  <rect x="618" y="326" width="24" height="6" fill="#a3271f"/>
+  <rect x="618" y="340" width="16" height="6" fill="#a3271f"/>
+</svg>
