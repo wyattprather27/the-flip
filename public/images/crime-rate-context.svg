@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <rect width="800" height="450" fill="#fdfcf9"/>
+  <rect x="0" y="360" width="800" height="90" fill="#ece7db"/>
+
+  <!-- city skyline -->
+  <rect x="60" y="230" width="70" height="130" fill="#1a1a1a"/>
+  <rect x="140" y="180" width="60" height="180" fill="#1a1a1a"/>
+  <rect x="210" y="250" width="55" height="110" fill="#1a1a1a"/>
+  <rect x="275" y="150" width="70" height="210" fill="#1a1a1a"/>
+  <rect x="355" y="200" width="60" height="160" fill="#1a1a1a"/>
+  <rect x="425" y="260" width="50" height="100" fill="#1a1a1a"/>
+  <rect x="485" y="190" width="65" height="170" fill="#1a1a1a"/>
+  <rect x="560" y="240" width="55" height="120" fill="#1a1a1a"/>
+  <rect x="625" y="210" width="60" height="150" fill="#1a1a1a"/>
+
+  <!-- windows -->
+  <g fill="#fdfcf9">
+    <rect x="72" y="245" width="12" height="12"/>
+    <rect x="98" y="245" width="12" height="12"/>
+    <rect x="72" y="275" width="12" height="12"/>
+    <rect x="98" y="275" width="12" height="12"/>
+    <rect x="152" y="195" width="12" height="12"/>
+    <rect x="176" y="195" width="12" height="12"/>
+    <rect x="152" y="225" width="12" height="12"/>
+    <rect x="176" y="225" width="12" height="12"/>
+    <rect x="290" y="165" width="12" height="12"/>
+    <rect x="316" y="165" width="12" height="12"/>
+    <rect x="290" y="195" width="12" height="12"/>
+    <rect x="316" y="195" width="12" height="12"/>
+    <rect x="500" y="205" width="12" height="12"/>
+    <rect x="524" y="205" width="12" height="12"/>
+    <rect x="500" y="235" width="12" height="12"/>
+    <rect x="524" y="235" width="12" height="12"/>
+  </g>
+
+  <!-- downward trend line -->
+  <polyline points="90,150 220,175 340,200 470,230 600,270 730,310" fill="none" stroke="#a3271f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="90" cy="150" r="7" fill="#a3271f"/>
+  <circle cx="730" cy="310" r="7" fill="#a3271f"/>
+</svg>

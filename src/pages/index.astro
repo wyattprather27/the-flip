@@ -12,19 +12,24 @@ const articles = entries.sort((a, b) => b.data.date.valueOf() - a.data.date.valu
     {
       articles.map((article) => (
         <li>
-          <p class="kicker">Flipping: {article.data.original_outlet}</p>
-          <h2>
-            <a href={`/articles/${article.data.slug}/`}>{article.data.title}</a>
-          </h2>
-          <p class="dek">{getTeaser(article.body ?? '')}</p>
-          <p class="meta">
-            {article.data.date.toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-              timeZone: 'UTC',
-            })}
-          </p>
+          <a class="thumb-link" href={`/articles/${article.data.slug}/`}>
+            <img class="article-thumb" src={article.data.image} alt={article.data.image_alt} loading="lazy" />
+          </a>
+          <div class="article-list-content">
+            <p class="kicker">Flipping: {article.data.original_outlet}</p>
+            <h2>
+              <a href={`/articles/${article.data.slug}/`}>{article.data.title}</a>
+            </h2>
+            <p class="dek">{getTeaser(article.body ?? '')}</p>
+            <p class="meta">
+              {article.data.date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                timeZone: 'UTC',
+              })}
+            </p>
+          </div>
         </li>
       ))
     }

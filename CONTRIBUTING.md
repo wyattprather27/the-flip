@@ -28,7 +28,18 @@ the homepage.
 | `original_outlet`     | string            | e.g. `CNN`, `Fox News`, `Reuters`.                             |
 | `date`                | date (`YYYY-MM-DD`) | Publish date. Controls homepage ordering (newest first).    |
 | `slug`                | string            | URL path: the article lives at `/articles/<slug>/`.            |
+| `image`               | string (path/URL) | Shown as a thumbnail on the homepage and a larger hero image at the top of the article. See "Images" below. |
+| `image_alt`           | string            | Alt text for `image`. Required for accessibility.               |
 | `sources`             | array of URLs     | At least one. Rendered as a numbered "Sources" list.           |
+
+## Images
+
+Put the image file in `public/images/` and reference it with a root-relative path, e.g.
+`/images/my-slug.svg` for a file at `public/images/my-slug.svg` (`.jpg`/`.png`/`.webp` work the
+same way). An external URL (`https://...`) also works if you'd rather not commit the file to the
+repo. There is no cropping/resizing step — the homepage thumbnail and the article hero both use
+`object-fit: cover` on a fixed aspect ratio, so any reasonably sized image works, but a roughly
+16:9 landscape image looks best in the hero position.
 
 ## Example file
 
@@ -41,14 +52,17 @@ original_headline: "The original outlet's headline"
 original_outlet: "e.g. CNN"
 date: 2026-09-01
 slug: "example-slug"
+image: "/images/example-slug.jpg"
+image_alt: "Short description of the image for screen readers"
 sources:
   - "https://example.com/source-1"
   - "https://example.com/source-2"
 ---
 
-Full article body in markdown goes here. Normal markdown — paragraphs, **bold**, links — all
-work. The first paragraph is also used as the one-line teaser on the homepage, so lead with the
-core point.
+Full article body in markdown goes here. Normal markdown — paragraphs, **bold**, links,
+`## subheadings`, and lists — all work. The first paragraph is also used as the one-line teaser
+on the homepage, so lead with the core point. Articles should be substantive — cover the missing
+context in enough depth to actually inform the reader, not just a one-paragraph correction.
 ```
 
 ## Steps

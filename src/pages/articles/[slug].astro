@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, original_headline, original_outlet, date, sources } = entry.data;
+const { title, original_headline, original_outlet, date, sources, image, image_alt } = entry.data;
 ---
 
 <Layout title={`${title} — The Flip`}>
@@ -25,6 +25,7 @@ const { title, original_headline, original_outlet, date, sources } = entry.data;
         Published {date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
       </p>
     </header>
+    <img class="article-hero" src={image} alt={image_alt} />
     <div class="article-body">
       <Content />
     </div>
